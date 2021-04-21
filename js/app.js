@@ -151,7 +151,7 @@ class App{
         let currentSession = null;
         const self = this;
         
-        const sessionInit = { requiredFeatures: [ 'hit-test' ],optionalFeatures: [ 'dom-overlay' ], domOverlay: { root: document.body } };
+        const sessionInit = { requiredFeatures: [ 'hit-test' ] };
         
         
         function onSessionStarted( session ) {
