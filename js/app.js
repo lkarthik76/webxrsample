@@ -117,12 +117,12 @@ class App{
 		// Load a glTF resource
 		loader.load(
 			// resource URL
-			`dress/dress.glb`,
+			`dress/chair.glb`,
 			// called when the resource is loaded
 			function ( gltf ) {
                 
-				const scale = 0.001;
-				gltf.scene.scale.set(scale, scale, scale); 
+				//const scale = 0.001;
+				//gltf.scene.scale.set(scale, scale, scale); 
 				
                 self.scene.add( gltf.scene );
                 self.chair = gltf.scene;
